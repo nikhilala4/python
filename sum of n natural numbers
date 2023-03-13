@@ -1,0 +1,6 @@
+sum=0
+n=int(input("enter the limit:"))
+for i in range(0,n+1):
+sum+=i
+print("sum of natural numbers:",n,"is",sum)
+
