@@ -1,0 +1,9 @@
+n=int(input("enter number:"))
+lim=int(n/2)+1
+for i in range (2,lim):
+rem=n%i
+if rem==0:
+print("num is not prime") 
+break
+else:
+print("num is a prime")
