@@ -1,0 +1,14 @@
+def count(string)
+d={"letters"=0, "numbers":0,"others":0}
+for t in string:
+if t.1salpha():
+d["letters"]+=1
+elif t.1sdigit():
+d["numbers"]+=1
+else:
+d["other"]+=1
+return d
+stmt1=input("enter the statement:")
+c1=count(stmt1)
+print(c1)
+
